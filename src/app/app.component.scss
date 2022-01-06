@@ -1,0 +1,42 @@
+
+.app{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.modal-container{
+  background: #FFFFFF;
+  border: 1px solid #003F91;
+  width: 400px;
+  height: 400px;
+  border-radius: 7px;
+
+  overflow: hidden;
+}
+
+.parent-slide-container{
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+
+  div{
+    flex: 1;
+    text-align: center;
+    padding-top: 75px;
+  }
+
+}
+
+.buttons-list{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+
+  button{
+    margin: 0 5px;
+  }
+}

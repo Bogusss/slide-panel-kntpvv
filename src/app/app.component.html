@@ -1,0 +1,15 @@
+<div class="app">
+  <div class="modal-container">
+    <div
+      class="parent-slide-container"
+      [@slide]="isLeftVisible ? 'right' : 'left'"
+    >
+      <div>Slide 1</div>
+      <div>Slide 2</div>
+    </div>
+  </div>
+</div>
+
+<div class="buttons-list">
+  <button (click)="isLeftVisible = !isLeftVisible">Toggle panes</button>
+</div>
